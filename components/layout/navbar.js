@@ -15,10 +15,10 @@ import Link from "next/link"
 import ThemeButton from "@/components/themeButton"
 
 const Links = [
+    { key: "MARVEL WIKI", text: "MARVEL WIKI", href: "/" },
     { key: "Characters", text: "Characters", href: "/characters" },
     { key: "Comics", text: "Comics", href: "/comics" },
     { key: "Series", text: "Series", href: "/series" },
-    { key: "Github", text: "Github", href: "https://github.com/cvrlnolan/pocketmarvel" }
 ];
 
 const NavLink = ({ children, linkHoverColor, linkRef }) => (
@@ -55,7 +55,7 @@ export default function Navbar({ children }) {
                         onClick={isOpen ? onClose : onOpen}
                     />
                     <HStack spacing={8} alignItems="center">
-                        <Box>PocketMarvel</Box>
+                        {/* <Box>PocketMarvel</Box> */}
                         <HStack
                             as="nav"
                             spacing={4}
@@ -83,10 +83,10 @@ export default function Navbar({ children }) {
 
             <Box p={4} justifyContent="space-between">
                 {children}
-                <Flex w="full" h="20px" p={8}>
+                {/* <Flex w="full" h="20px" p={8}>
                     <Text w="full" textAlign="center" fontWeight="bold">
                         Developed by
-                        <Link href="https://carlnolan.lootyclub.com" passHref>
+                        <Link href="https://github.com/Felix-Jorge-Flores" passHref>
                             <Text
                                 display="inline-flex"
                                 ml={1} color={linkColor}
@@ -97,11 +97,11 @@ export default function Navbar({ children }) {
                                 transition="all"
                                 transitionDuration="0.5s"
                             >
-                                Carl Nolan
+                                Felix Jorge
                             </Text>
                         </Link>
                     </Text>
-                </Flex>
+                </Flex> */}
             </Box>
         </>
     );

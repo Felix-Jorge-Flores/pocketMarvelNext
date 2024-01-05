@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2021 [Carl Nolan](https://carlnolan.lootyclub.com)
+Copyright (c) 2021 [Felix Jorge](https://github.com/Felix-Jorge-Flores)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
